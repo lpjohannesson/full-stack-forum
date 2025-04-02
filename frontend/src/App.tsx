@@ -1,6 +1,16 @@
+import Header from "./components/Header";
+import ListPost from "./components/ListPost";
+
 function App() {
   return (
-    <>Hello World!</>
+    <>
+      <Header />
+      <div className="p-4 flex flex-col gap-2">
+        <ListPost />
+        <ListPost />
+        <ListPost />
+      </div>
+    </>
   )
 }
 
